@@ -1,4 +1,6 @@
-function App() {
+import React from 'react';
+
+const Home = () => {
   return (
     <>
   <header className="hide-when-mobile">
@@ -138,8 +140,7 @@ function App() {
     <span>🧡</span>
   </footer>
     </>
-
   );
 }
 
-export default App;
+export default Home;
